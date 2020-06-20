@@ -136,7 +136,7 @@ class GeneticAlgorithm:
         :return: list with mutated chromosomes
         """
 
-        mutation_chance = mutation_chance*100
+        # mutation_chance = mutation_chance*100
         for i, chromosome in enumerate(_l):
             if round(uniform(0, 1), 2) <= mutation_chance: # 2 because it is mutation
                 # mutate
